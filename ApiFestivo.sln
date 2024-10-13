@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiFestivo.Core", "ApiFestivo\ApiFestivo.Core.csproj", "{80ECF2F7-6BE9-42E3-A2EF-236572320CE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiFestivo.Core", "ApiFestivo\ApiFestivo.Core.csproj", "{80ECF2F7-6BE9-42E3-A2EF-236572320CE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiFestivo.Dominio", "ApiFestivo.Dominio\ApiFestivo.Dominio.csproj", "{456099C3-32E9-4863-BF68-EFCE0FFC0B07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiFestivo.Dominio", "ApiFestivo.Dominio\ApiFestivo.Dominio.csproj", "{456099C3-32E9-4863-BF68-EFCE0FFC0B07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiFestivo.InfraestructuraPersistencia", "ApiFestivo.InfraestructuraPersistencia\ApiFestivo.InfraestructuraPersistencia.csproj", "{61D586CA-A7A7-47A6-AAA2-3A6744ADDDAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiFestivo.InfraestructuraPersistencia", "ApiFestivo.InfraestructuraPersistencia\ApiFestivo.InfraestructuraPersistencia.csproj", "{61D586CA-A7A7-47A6-AAA2-3A6744ADDDAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiFestivo.InfaestructuraRepositorio", "ApiFestivo.InfaestructuraRepositorio\ApiFestivo.InfaestructuraRepositorio.csproj", "{CC4A6682-5C7E-47A3-BD48-056A5C4A5B72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiFestivo.InfaestructuraRepositorio", "ApiFestivo.InfaestructuraRepositorio\ApiFestivo.InfaestructuraRepositorio.csproj", "{CC4A6682-5C7E-47A3-BD48-056A5C4A5B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiFestivo.Presentaciones", "ApiFestivo.Presentaciones\ApiFestivo.Presentaciones.csproj", "{CD0A161A-4F4C-405C-9555-DEA80526729A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiFestivo.Aplicacion", "ApiFestivo.Aplicacion\ApiFestivo.Aplicacion.csproj", "{8EF83744-511A-4C23-96A7-0A8CD2BB7DBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{CC4A6682-5C7E-47A3-BD48-056A5C4A5B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC4A6682-5C7E-47A3-BD48-056A5C4A5B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC4A6682-5C7E-47A3-BD48-056A5C4A5B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD0A161A-4F4C-405C-9555-DEA80526729A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0A161A-4F4C-405C-9555-DEA80526729A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0A161A-4F4C-405C-9555-DEA80526729A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0A161A-4F4C-405C-9555-DEA80526729A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF83744-511A-4C23-96A7-0A8CD2BB7DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF83744-511A-4C23-96A7-0A8CD2BB7DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF83744-511A-4C23-96A7-0A8CD2BB7DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF83744-511A-4C23-96A7-0A8CD2BB7DBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

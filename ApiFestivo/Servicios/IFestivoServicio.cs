@@ -13,7 +13,7 @@ namespace ApiFestivo.Core.Servicios
 
         Task<Festivo> Obtener(int Id);
 
-        Task<bool> EsFestivo(DateTime fecha);
+        Task<IEnumerable<Festivo>> EsFestivo(int indiceDato, DateTime fecha);
 
         Task<DateTime> AgregarFestivo(DateTime fechaFestivo);
 

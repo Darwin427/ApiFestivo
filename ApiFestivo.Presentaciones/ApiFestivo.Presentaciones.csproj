@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiFestivo.Aplicacion\ApiFestivo.Aplicacion.csproj" />
+    <ProjectReference Include="..\ApiFestivo.Dominio\ApiFestivo.Dominio.csproj" />
+    <ProjectReference Include="..\ApiFestivo.InfaestructuraRepositorio\ApiFestivo.InfaestructuraRepositorio.csproj" />
+    <ProjectReference Include="..\ApiFestivo.InfraestructuraPersistencia\ApiFestivo.InfraestructuraPersistencia.csproj" />
+    <ProjectReference Include="..\ApiFestivo\ApiFestivo.Core.csproj" />
+  </ItemGroup>
+
+</Project>
