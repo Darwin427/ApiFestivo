@@ -1,0 +1,12 @@
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo\bin\Debug\net8.0\ApiFestivo.deps.json
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo\bin\Debug\net8.0\ApiFestivo.dll
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo\bin\Debug\net8.0\ApiFestivo.pdb
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo\obj\Debug\net8.0\ApiFestivo.csproj.AssemblyReference.cache
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo\obj\Debug\net8.0\ApiFestivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo\obj\Debug\net8.0\ApiFestivo.AssemblyInfoInputs.cache
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo\obj\Debug\net8.0\ApiFestivo.AssemblyInfo.cs
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo\obj\Debug\net8.0\ApiFestivo.csproj.CoreCompileInputs.cache
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo\obj\Debug\net8.0\ApiFestivo.dll
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo\obj\Debug\net8.0\refint\ApiFestivo.dll
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo\obj\Debug\net8.0\ApiFestivo.pdb
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo\obj\Debug\net8.0\ref\ApiFestivo.dll
