@@ -15,7 +15,7 @@ namespace ApiFestivo.Core.Interfaces
 
         Task<bool> EsFestivo(Festivo fecha);
 
-        Task<Festivo> AgregarFestivo(Festivo fechaFestivo);
+        Task<Festivo> AgregarFestivo(Festivo fechaFestivo, int Dias);
 
         Task<bool> EliminarFestivo(Festivo fechaFestivo);
 

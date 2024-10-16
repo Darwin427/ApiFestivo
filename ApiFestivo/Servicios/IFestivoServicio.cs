@@ -15,7 +15,7 @@ namespace ApiFestivo.Core.Servicios
 
         Task<IEnumerable<Festivo>> EsFestivo(int indiceDato, DateTime fecha);
 
-        Task<DateTime> AgregarFestivo(DateTime fechaFestivo);
+        Task<DateTime> AgregarFestivo(DateTime fechaFestivo, int Dias);
 
         Task<bool> EliminarFestivo(DateTime fechaFestivo);
 
