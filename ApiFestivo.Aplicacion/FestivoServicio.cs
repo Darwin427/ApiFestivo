@@ -1,5 +1,4 @@
 ﻿using ApiFestivo.Core.Servicios;
-using ApiFestivo.Dominio;
 
 namespace ApiFestivo.Aplicacion
 {
@@ -13,89 +12,29 @@ namespace ApiFestivo.Aplicacion
             this.repositorio = repositorio;
         }
 
-        //Logica de los festivos
-
-        //Logica para obtener el inico de la semana santa
-        public static DateTime ObtenerInicioSemanaSanta(int año)
+        public Task<bool> EsFestivo(DateTime fecha)
         {
-            int a = año % 19;
-            int b = año % 4;
-            int c = año % 7;
-            int d = (19 * a + 24) % 30;
-
-            int días = d + (2 * b + 4 * c + 6 * d + 5) % 7;
-
-            int dia = 15 + días;
-            int mes = 3;
-            if (dia > 31)
-            {
-                dia = dia - 31;
-                mes = 4;
-            }
-            return new DateTime(año, mes, dia);
+            return repositorio.EsFestivo(fecha);
         }
 
-
-
-
-        public Task<IEnumerable<DateTime>> ObtenerTodosLosFestivos()
+        public Task<DateTime?> FestivoRelativo(DateTime fecha)
         {
-            return repositorio.ObtenerTodosLosFestivos();
+            return repositorio.FestivoRelativo(fecha);
         }
 
-
-        //Se le hizo un remiendo, pendiente de si funciona, pero asi funciona 
-        public Task<DateTime> AgregarFestivo(DateTime fechaFestivo, int dias)
+        public Task<IEnumerable<DateTime>> FestivosFijos()
         {
-            DateTime nuevaFechaFestivo = AgregarDias(fechaFestivo, dias);
-            return Task.FromResult(nuevaFechaFestivo);
+            return repositorio.FestivosFijos();
         }
 
-        public static DateTime AgregarDias(DateTime fecha, int dias)
+        public Task<DateTime?> FestivosPuente(DateTime fecha)
         {
-            return fecha.AddDays(dias);
-        }
-        //Hasta aqui 
-
-
-        public Task<DateTime> ActualizarFestivo(DateTime fechaFestivo)
-        {
-            return repositorio.ActualizarFestivo(fechaFestivo);
+            return repositorio.FestivosPuente(fecha);
         }
 
-        public Task<Festivo> Obtener(int Id)
+        public Task<DateTime?> FestivosPuenteRelativos(DateTime fecha)
         {
-            return repositorio.Obtener(Id);
-        }
-
-
-        //Beta de EsFestivo, para que se aproxime al siguiente lunes si la fecha coincide con el festivo
-        public Task<IEnumerable<Festivo>> EsFestivo(int indiceDato, DateTime fecha)
-        {
-            DateTime siguienteLunesFecha = siguienteLunes(fecha);
-            return repositorio.EsFestivo(indiceDato, siguienteLunesFecha);
-        }
-        public static DateTime siguienteLunes(DateTime fecha)
-        {
-            DayOfWeek diaSemana = fecha.DayOfWeek;
-            if (diaSemana != DayOfWeek.Monday)
-            {
-                if (diaSemana > DayOfWeek.Sunday)
-                {
-                    fecha = AgregarDias(fecha, 8 - (int)diaSemana);
-                }
-            }
-            else
-            {
-                fecha = AgregarDias(fecha, 1);
-            }
-            return fecha;
-        }
-        //Hasta aqui
-
-        public Task<bool> EliminarFestivo(DateTime fechaFestivo)
-        {
-            return repositorio.EliminarFestivo(fechaFestivo);
+            return repositorio.FestivosPuenteRelativos(fecha);
         }
     }
 }

@@ -9,16 +9,14 @@ namespace ApiFestivo.Core.Interfaces
 {
     public interface IFestivoRepositorio
     {
-        Task<IEnumerable<Festivo>> ObtenerTodosLosFestivos();
+        Task<bool> EsFestivo(DateTime fecha);
 
-        Task<Festivo> Obtener(int Id);
+        Task<DateTime?> FestivoRelativo(DateTime fecha);
 
-        Task<bool> EsFestivo(Festivo fecha);
+        Task<IEnumerable<DateTime>> FestivosFijos();
 
-        Task<Festivo> AgregarFestivo(Festivo fechaFestivo, int Dias);
+        Task<DateTime?> FestivosPuente(DateTime fecha);
 
-        Task<bool> EliminarFestivo(Festivo fechaFestivo);
-
-        Task<Festivo> ActualizarFestivo(Festivo fechaFestivo);
+        Task<DateTime?> FestivosPuenteRelativos(DateTime fecha);
     }
 }

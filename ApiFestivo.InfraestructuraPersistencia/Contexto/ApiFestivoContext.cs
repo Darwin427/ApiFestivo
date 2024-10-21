@@ -1,5 +1,7 @@
 ﻿using ApiFestivo.Dominio;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using System.Data.SqlClient;
 
 namespace ApiFestivo.InfraestructuraPersistencia.Contexto
 {
@@ -11,7 +13,12 @@ namespace ApiFestivo.InfraestructuraPersistencia.Contexto
             public DbSet<Festivo> Festivos { get; set; }
             public DbSet<Tipo> Tipo { get; set; }
 
-            protected override void OnModelCreating(ModelBuilder modelBuilder)
+        public SqlConnection GetConnection()
+        {
+            throw new NotImplementedException();
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
             {
                 modelBuilder.Entity<Festivo>(festivo =>
                 {

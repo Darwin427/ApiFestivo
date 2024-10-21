@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiFestivo.InfraestructuraPersistencia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e2b5c465d416121fa1c0e54acb24332f50aa903")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0321d9c64af36baf22cd5f05ac93d2079be643c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiFestivo.InfraestructuraPersistencia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiFestivo.InfraestructuraPersistencia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
