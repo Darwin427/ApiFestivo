@@ -85,3 +85,8 @@ C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo.Presentaciones\obj\Debug\net8.
 C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo.Presentaciones\obj\Debug\net8.0\ApiFestivo.Presentaciones.pdb
 C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo.Presentaciones\obj\Debug\net8.0\ApiFestivo.Presentaciones.genruntimeconfig.cache
 C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo.Presentaciones\obj\Debug\net8.0\ref\ApiFestivo.Presentaciones.dll
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo.Presentaciones\obj\Debug\net8.0\ApiFestivo.Presentaciones.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo.Presentaciones\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo.Presentaciones\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo.Presentaciones\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dmari\source\repos\ApiFestivo\ApiFestivo.Presentaciones\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ApiFestivo.Aplicacion\ApiFestivo.Aplicacion.csproj" />
     <ProjectReference Include="..\ApiFestivo.Dominio\ApiFestivo.Dominio.csproj" />
     <ProjectReference Include="..\ApiFestivo.InfaestructuraRepositorio\ApiFestivo.InfaestructuraRepositorio.csproj" />

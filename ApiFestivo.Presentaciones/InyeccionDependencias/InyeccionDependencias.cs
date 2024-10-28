@@ -11,10 +11,10 @@ namespace ApiFestivo.Presentaciones.InyeccionDependencias
     {
         public static IServiceCollection AgregarDependecias(this IServiceCollection servicios, IConfiguration configuration)
         {
-            //Agregar el DbContext
             servicios.AddDbContext<APIFestivosContext>(Opciones =>
             {
                 Opciones.UseSqlServer(configuration.GetConnectionString("Festivos"));
+                Opciones.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
             });
 
             //Agregar los repositorios

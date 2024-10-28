@@ -34,7 +34,11 @@ namespace ApiFestivo.InfaestructuraRepositorio
             // Verificar festivos puente relativos
             if (await EsFestivoPuenteRelativo(fecha, domingoPascua)) return true;
 
-            return false;
+
+            else
+            {
+                return false;
+            }
         }
 
         public async Task<DateTime?> FestivoRelativo(DateTime fecha)
@@ -173,9 +177,9 @@ namespace ApiFestivo.InfaestructuraRepositorio
             using (SqlConnection conn = dbConnector.GetConnection())
             {
                 await conn.OpenAsync();
-                SqlCommand cmd = new SqlCommand("SELECT COUNT(*) FROM Festivo WHERE Dia = @dia AND Mes = @mes AND IdTipo = (SELECT Id FROM Tipo WHERE Tipo = 'puente')", conn);
-                cmd.Parameters.AddWithValue("@dia", fecha.Day);
-                cmd.Parameters.AddWithValue("@mes", fecha.Month);
+                SqlCommand cmd = new SqlCommand("SELECT COUNT(*) FROM Festivo WHERE Dia = @Dia AND Mes = @Mes AND IdTipo = (SELECT Id FROM Tipo WHERE Tipo = 'puente')", conn);
+                cmd.Parameters.AddWithValue("@Dia", fecha.Day);
+                cmd.Parameters.AddWithValue("@Mes", fecha.Month);
                 int count = (int)await cmd.ExecuteScalarAsync();
                 return count > 0;
             }

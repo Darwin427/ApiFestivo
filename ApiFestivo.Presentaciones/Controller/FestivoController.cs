@@ -1,5 +1,6 @@
 ﻿using ApiFestivo.Core.Servicios;
 using ApiFestivo.Dominio;
+using ApiFestivo.Aplicacion;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiFestivo.Presentaciones.Controller
@@ -8,8 +9,8 @@ namespace ApiFestivo.Presentaciones.Controller
     [Route("api/Festivo")]
     public class FestivoController : ControllerBase
     {
-        private readonly IFestivoServicio servicio;
-        public FestivoController(IFestivoServicio servicio)
+        private readonly FestivoServicio servicio;
+        public FestivoController(FestivoServicio servicio)
         {
             this.servicio = servicio;
         }
