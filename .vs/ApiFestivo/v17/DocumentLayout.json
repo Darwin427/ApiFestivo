@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|c:\\users\\dmari\\source\\repos\\apifestivo\\apifestivo.presentaciones\\inyecciondependencias\\inyecciondependencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|c:\\users\\dmari\\source\\repos\\apifestivo\\apifestivo.presentaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|solutionrelative:apifestivo.presentaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo.presentaciones\\inyecciondependencias\\inyecciondependencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|solutionrelative:apifestivo.presentaciones\\inyecciondependencias\\inyecciondependencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4A6682-5C7E-47A3-BD48-056A5C4A5B72}|ApiFestivo.InfaestructuraRepositorio\\ApiFestivo.InfaestructuraRepositorio.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo.infaestructurarepositorio\\festivorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4A6682-5C7E-47A3-BD48-056A5C4A5B72}|ApiFestivo.InfaestructuraRepositorio\\ApiFestivo.InfaestructuraRepositorio.csproj|solutionrelative:apifestivo.infaestructurarepositorio\\festivorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo.presentaciones\\controller\\festivocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|solutionrelative:apifestivo.presentaciones\\controller\\festivocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D586CA-A7A7-47A6-AAA2-3A6744ADDDAE}|ApiFestivo.InfraestructuraPersistencia\\ApiFestivo.InfraestructuraPersistencia.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo.infraestructurapersistencia\\contexto\\apifestivocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D586CA-A7A7-47A6-AAA2-3A6744ADDDAE}|ApiFestivo.InfraestructuraPersistencia\\ApiFestivo.InfraestructuraPersistencia.csproj|solutionrelative:apifestivo.infraestructurapersistencia\\contexto\\apifestivocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF83744-511A-4C23-96A7-0A8CD2BB7DBA}|ApiFestivo.Aplicacion\\ApiFestivo.Aplicacion.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo.aplicacion\\festivoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF83744-511A-4C23-96A7-0A8CD2BB7DBA}|ApiFestivo.Aplicacion\\ApiFestivo.Aplicacion.csproj|solutionrelative:apifestivo.aplicacion\\festivoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80ECF2F7-6BE9-42E3-A2EF-236572320CE7}|ApiFestivo\\ApiFestivo.Core.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo\\interfaces\\ifestivorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80ECF2F7-6BE9-42E3-A2EF-236572320CE7}|ApiFestivo\\ApiFestivo.Core.csproj|solutionrelative:apifestivo\\interfaces\\ifestivorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80ECF2F7-6BE9-42E3-A2EF-236572320CE7}|ApiFestivo\\ApiFestivo.Core.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo\\servicios\\ifestivoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80ECF2F7-6BE9-42E3-A2EF-236572320CE7}|ApiFestivo\\ApiFestivo.Core.csproj|solutionrelative:apifestivo\\servicios\\ifestivoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF83744-511A-4C23-96A7-0A8CD2BB7DBA}|ApiFestivo.Aplicacion\\ApiFestivo.Aplicacion.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo.aplicacion\\apifestivo.aplicacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8EF83744-511A-4C23-96A7-0A8CD2BB7DBA}|ApiFestivo.Aplicacion\\ApiFestivo.Aplicacion.csproj|solutionrelative:apifestivo.aplicacion\\apifestivo.aplicacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo.presentaciones\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -13,18 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo.presentaciones\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|solutionrelative:apifestivo.presentaciones\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo.presentaciones\\controller\\festivocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|solutionrelative:apifestivo.presentaciones\\controller\\festivocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo.presentaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|solutionrelative:apifestivo.presentaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80ECF2F7-6BE9-42E3-A2EF-236572320CE7}|ApiFestivo\\ApiFestivo.Core.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo\\servicios\\ifestivoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80ECF2F7-6BE9-42E3-A2EF-236572320CE7}|ApiFestivo\\ApiFestivo.Core.csproj|solutionrelative:apifestivo\\servicios\\ifestivoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo.presentaciones\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
@@ -63,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{456099C3-32E9-4863-BF68-EFCE0FFC0B07}|ApiFestivo.Dominio\\ApiFestivo.Dominio.csproj|solutionrelative:apifestivo.dominio\\festivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EF83744-511A-4C23-96A7-0A8CD2BB7DBA}|ApiFestivo.Aplicacion\\ApiFestivo.Aplicacion.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo.aplicacion\\apifestivo.aplicacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8EF83744-511A-4C23-96A7-0A8CD2BB7DBA}|ApiFestivo.Aplicacion\\ApiFestivo.Aplicacion.csproj|solutionrelative:apifestivo.aplicacion\\apifestivo.aplicacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|C:\\Users\\dmari\\source\\repos\\ApiFestivo\\apifestivo.presentaciones\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{CD0A161A-4F4C-405C-9555-DEA80526729A}|ApiFestivo.Presentaciones\\ApiFestivo.Presentaciones.csproj|solutionrelative:apifestivo.presentaciones\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -86,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,187 +114,92 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FestivoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.InfaestructuraRepositorio\\FestivoRepositorio.cs",
+              "RelativeDocumentMoniker": "ApiFestivo.InfaestructuraRepositorio\\FestivoRepositorio.cs",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.InfaestructuraRepositorio\\FestivoRepositorio.cs",
+              "RelativeToolTip": "ApiFestivo.InfaestructuraRepositorio\\FestivoRepositorio.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:10:34.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InyeccionDependencias.cs",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\InyeccionDependencias\\InyeccionDependencias.cs",
+              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\InyeccionDependencias\\InyeccionDependencias.cs",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\InyeccionDependencias\\InyeccionDependencias.cs",
+              "RelativeToolTip": "ApiFestivo.Presentaciones\\InyeccionDependencias\\InyeccionDependencias.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T22:28:33.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IFestivoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo\\Servicios\\IFestivoServicio.cs",
+              "RelativeDocumentMoniker": "ApiFestivo\\Servicios\\IFestivoServicio.cs",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo\\Servicios\\IFestivoServicio.cs",
+              "RelativeToolTip": "ApiFestivo\\Servicios\\IFestivoServicio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:29:29.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Program.cs",
+              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\Program.cs",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Program.cs",
+              "RelativeToolTip": "ApiFestivo.Presentaciones\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T02:13:17.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IFestivoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo\\Interfaces\\IFestivoRepositorio.cs",
+              "RelativeDocumentMoniker": "ApiFestivo\\Interfaces\\IFestivoRepositorio.cs",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo\\Interfaces\\IFestivoRepositorio.cs",
+              "RelativeToolTip": "ApiFestivo\\Interfaces\\IFestivoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:33:03.347Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "FestivoController.cs",
               "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Controller\\FestivoController.cs",
               "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\Controller\\FestivoController.cs",
               "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Controller\\FestivoController.cs",
               "RelativeToolTip": "ApiFestivo.Presentaciones\\Controller\\FestivoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T00:21:05.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InyeccionDependencias.cs",
-              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\InyeccionDependencias\\InyeccionDependencias.cs",
-              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\InyeccionDependencias\\InyeccionDependencias.cs",
-              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\InyeccionDependencias\\InyeccionDependencias.cs",
-              "RelativeToolTip": "ApiFestivo.Presentaciones\\InyeccionDependencias\\InyeccionDependencias.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T22:28:33.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ApiFestivo.Presentaciones\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-13T23:01:12.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\appsettings.Development.json",
-              "RelativeToolTip": "ApiFestivo.Presentaciones\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-13T23:15:13.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\appsettings.json",
-              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\appsettings.json",
-              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\appsettings.json",
-              "RelativeToolTip": "ApiFestivo.Presentaciones\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-13T22:06:38.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "favicon.ico -  [Espa\u00F1ol (Espa\u00F1a, alfabetizaci\u00F3n internacional)] - Icon [32x32, 32 bits, BMP]",
-              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\wwwroot\\favicon.ico",
-              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\wwwroot\\favicon.ico",
-              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\wwwroot\\favicon.ico -  [Espa\u00F1ol (Espa\u00F1a, alfabetizaci\u00F3n internacional)] - Icon [32x32, 32 bits, BMP]",
-              "RelativeToolTip": "ApiFestivo.Presentaciones\\wwwroot\\favicon.ico -  [Espa\u00F1ol (Espa\u00F1a, alfabetizaci\u00F3n internacional)] - Icon [32x32, 32 bits, BMP]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
-              "WhenOpened": "2024-10-13T23:09:40.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IFestivoServicio.cs",
-              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo\\Servicios\\IFestivoServicio.cs",
-              "RelativeDocumentMoniker": "ApiFestivo\\Servicios\\IFestivoServicio.cs",
-              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo\\Servicios\\IFestivoServicio.cs",
-              "RelativeToolTip": "ApiFestivo\\Servicios\\IFestivoServicio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:29:29.772Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Program.cs",
-              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\Program.cs",
-              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Program.cs",
-              "RelativeToolTip": "ApiFestivo.Presentaciones\\Program.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAcwBEAAAAqAAAA",
+              "Title": "ApiFestivoContext.cs",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.InfraestructuraPersistencia\\Contexto\\ApiFestivoContext.cs",
+              "RelativeDocumentMoniker": "ApiFestivo.InfraestructuraPersistencia\\Contexto\\ApiFestivoContext.cs",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.InfraestructuraPersistencia\\Contexto\\ApiFestivoContext.cs",
+              "RelativeToolTip": "ApiFestivo.InfraestructuraPersistencia\\Contexto\\ApiFestivoContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T02:13:17.473Z"
+              "WhenOpened": "2024-10-30T15:10:40.349Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "ApiFestivo.Presentaciones\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T02:52:38.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Index.cshtml",
-              "RelativeToolTip": "ApiFestivo.Presentaciones\\Pages\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T23:09:22.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "ApiFestivo.Presentaciones\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-13T23:09:37.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "ApiFestivo.Presentaciones\\Pages\\Index.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T23:16:38.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\Pages\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Privacy.cshtml",
-              "RelativeToolTip": "ApiFestivo.Presentaciones\\Pages\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T23:09:25.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "ApiFestivo.Presentaciones\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-13T23:09:46.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Festivo.cs",
-              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Dominio\\Festivo.cs",
-              "RelativeDocumentMoniker": "ApiFestivo.Dominio\\Festivo.cs",
-              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Dominio\\Festivo.cs",
-              "RelativeToolTip": "ApiFestivo.Dominio\\Festivo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:22:13.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "ApiFestivo.Aplicacion.csproj",
               "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Aplicacion\\ApiFestivo.Aplicacion.csproj",
               "RelativeDocumentMoniker": "ApiFestivo.Aplicacion\\ApiFestivo.Aplicacion.csproj",
@@ -290,7 +211,150 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FestivoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Aplicacion\\FestivoServicio.cs",
+              "RelativeDocumentMoniker": "ApiFestivo.Aplicacion\\FestivoServicio.cs",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Aplicacion\\FestivoServicio.cs",
+              "RelativeToolTip": "ApiFestivo.Aplicacion\\FestivoServicio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:08:47.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\appsettings.json",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\appsettings.json",
+              "RelativeToolTip": "ApiFestivo.Presentaciones\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-13T22:06:38.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\appsettings.Development.json",
+              "RelativeToolTip": "ApiFestivo.Presentaciones\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-13T23:15:13.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "favicon.ico -  [Espa\u00F1ol (Espa\u00F1a, alfabetizaci\u00F3n internacional)] - Icon [32x32, 32 bits, BMP]",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\wwwroot\\favicon.ico -  [Espa\u00F1ol (Espa\u00F1a, alfabetizaci\u00F3n internacional)] - Icon [32x32, 32 bits, BMP]",
+              "RelativeToolTip": "ApiFestivo.Presentaciones\\wwwroot\\favicon.ico -  [Espa\u00F1ol (Espa\u00F1a, alfabetizaci\u00F3n internacional)] - Icon [32x32, 32 bits, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-10-13T23:09:40.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApiFestivo.Presentaciones\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-13T23:01:12.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ApiFestivo.Presentaciones\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T02:52:38.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Index.cshtml",
+              "RelativeToolTip": "ApiFestivo.Presentaciones\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T23:09:22.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ApiFestivo.Presentaciones\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-13T23:09:37.391Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "ApiFestivo.Presentaciones\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T23:16:38.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "ApiFestivo.Presentaciones\\Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T23:09:25.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ApiFestivo.Presentaciones\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-13T23:09:46.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Festivo.cs",
+              "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Dominio\\Festivo.cs",
+              "RelativeDocumentMoniker": "ApiFestivo.Dominio\\Festivo.cs",
+              "ToolTip": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Dominio\\Festivo.cs",
+              "RelativeToolTip": "ApiFestivo.Dominio\\Festivo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:22:13.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\Pages\\Shared\\_Layout.cshtml.css",
@@ -302,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Presentaciones\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "ApiFestivo.Presentaciones\\Pages\\Error.cshtml",
@@ -314,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Tipo.cs",
               "DocumentMoniker": "C:\\Users\\dmari\\source\\repos\\ApiFestivo\\ApiFestivo.Dominio\\Tipo.cs",
               "RelativeDocumentMoniker": "ApiFestivo.Dominio\\Tipo.cs",

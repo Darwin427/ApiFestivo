@@ -14,7 +14,7 @@ namespace ApiFestivo.Presentaciones.InyeccionDependencias
             servicios.AddDbContext<APIFestivosContext>(Opciones =>
             {
                 Opciones.UseSqlServer(configuration.GetConnectionString("Festivos"));
-                Opciones.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+                //Opciones.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
             });
 
             //Agregar los repositorios

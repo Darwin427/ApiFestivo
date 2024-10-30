@@ -1,13 +1,14 @@
-﻿using ApiFestivo.Core.Servicios;
+﻿using ApiFestivo.Core.Interfaces;
+using ApiFestivo.Core.Servicios;
 
 namespace ApiFestivo.Aplicacion
 {
     public class FestivoServicio : IFestivoServicio
     {
 
-        private readonly IFestivoServicio repositorio;
+        private readonly IFestivoRepositorio repositorio;
 
-        public FestivoServicio(IFestivoServicio repositorio)
+        public FestivoServicio(IFestivoRepositorio repositorio)
         {
             this.repositorio = repositorio;
         }

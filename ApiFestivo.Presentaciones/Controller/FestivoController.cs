@@ -9,12 +9,12 @@ namespace ApiFestivo.Presentaciones.Controller
     [Route("api/Festivo")]
     public class FestivoController : ControllerBase
     {
-        private readonly FestivoServicio servicio;
-        public FestivoController(FestivoServicio servicio)
+        private readonly IFestivoServicio servicio;
+        public FestivoController(IFestivoServicio servicio)
         {
             this.servicio = servicio;
         }
-        [HttpHead("EsFestivo/{fecha}")]
+        [HttpGet("EsFestivo/{fecha}")]
         public async Task<ActionResult<IEnumerable<Festivo>>> EsFestivo(DateTime fecha)
         {
             return Ok(await servicio.EsFestivo(fecha));

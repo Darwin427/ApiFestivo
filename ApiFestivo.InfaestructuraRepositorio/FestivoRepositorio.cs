@@ -34,11 +34,7 @@ namespace ApiFestivo.InfaestructuraRepositorio
             // Verificar festivos puente relativos
             if (await EsFestivoPuenteRelativo(fecha, domingoPascua)) return true;
 
-
-            else
-            {
                 return false;
-            }
         }
 
         public async Task<DateTime?> FestivoRelativo(DateTime fecha)
