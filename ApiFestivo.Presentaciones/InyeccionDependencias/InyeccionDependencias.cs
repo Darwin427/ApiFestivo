@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ApiFestivo.InfraestructuraPersistencia.Contexto;
 using ApiFestivo.Core.Interfaces;
-using ApiFestivo.InfaestructuraRepositorio;
 using ApiFestivo.Core.Servicios;
 using ApiFestivo.Aplicacion;
 

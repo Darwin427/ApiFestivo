@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiFestivo.Aplicacion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+595c61e8b3dd2d8784374d86869dd3c19af12c87")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5016798e3c99d212ac37b1b720117d3d2b771f05")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiFestivo.Aplicacion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiFestivo.Aplicacion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

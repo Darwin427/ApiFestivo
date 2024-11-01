@@ -15,7 +15,8 @@ namespace ApiFestivo.InfraestructuraPersistencia.Contexto
 
         public SqlConnection GetConnection()
         {
-            throw new NotImplementedException();
+            var connectionString = this.Database.GetDbConnection().ConnectionString;
+            return new SqlConnection(connectionString);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
