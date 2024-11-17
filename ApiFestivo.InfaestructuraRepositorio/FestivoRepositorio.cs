@@ -1,145 +1,101 @@
 ﻿using ApiFestivo.Core.Interfaces;
 using ApiFestivo.InfraestructuraPersistencia.Contexto;
 using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 
 
 public class FestivoRepositorio : IFestivoRepositorio
 {
-    private readonly APIFestivosContext dbConnector;
+    private readonly APIFestivosContext _context;
 
     public FestivoRepositorio(APIFestivosContext context)
     {
-        this.dbConnector = context;
+        _context = context;
     }
 
     public async Task<bool> EsFestivo(DateTime fecha)
     {
-        DateTime domingoPascua = ObtenerDomingoPascua(fecha.Year);
+        // Fijo
+        var fijo = await _context.Festivos
+            .AnyAsync(f => f.IdTipo == 1 && f.Dia == fecha.Day && f.Mes == fecha.Month);
 
-        // Verificar si es festivo fijo
-        if ((await FestivosFijos()).Contains(fecha.Date)) return true;
+        if (fijo) return true;
 
-        // Verificar si es festivo relativo
-        if (await FestivoRelativo(fecha) != null) return true;
+        // Trasladado al lunes
+        var trasladado = await FestivosPuente(fecha);
+        if (trasladado.HasValue && trasladado.Value.Date == fecha.Date) return true;
 
-        // Verificar si es festivo puente
-        if (await FestivosPuente(fecha) != null) return true;
+        // Relativo al domingo de Pascua
+        var relativo = await FestivoRelativo(fecha);
+        if (relativo.HasValue && relativo.Value.Date == fecha.Date) return true;
 
-        // Verificar si es festivo puente relativo
-        if (await FestivosPuenteRelativos(fecha) != null) return true;
+        // Relativo trasladado al lunes
+        var relativoPuente = await FestivosPuenteRelativos(fecha);
+        if (relativoPuente.HasValue && relativoPuente.Value.Date == fecha.Date) return true;
 
         return false;
     }
 
     public async Task<DateTime?> FestivoRelativo(DateTime fecha)
     {
-        DateTime domingoPascua = ObtenerDomingoPascua(fecha.Year);
+        var domingoPascua = ObtenerDomingoDePascua(fecha.Year);
 
-        using (SqlConnection conn = dbConnector.GetConnection())
-        {
-            await conn.OpenAsync();
-            SqlCommand cmd = new SqlCommand(
-                "SELECT DiasPascua FROM Festivo WHERE IdTipo = (SELECT Id FROM Tipo WHERE Tipo = 'relativo')", conn);
-            SqlDataReader reader = await cmd.ExecuteReaderAsync();
-            while (await reader.ReadAsync())
-            {
-                int diasRelativos = reader.GetInt32(0);
-                DateTime fechaFestivo = domingoPascua.AddDays(diasRelativos);
-                if (fecha.Date == fechaFestivo.Date) return fechaFestivo;
-            }
-        }
-        return null;
+        var festivo = await _context.Festivos
+            .Where(f => f.IdTipo == 3)
+            .Select(f => domingoPascua.AddDays(f.DiasPascua))
+            .FirstOrDefaultAsync();
+
+        return festivo;
     }
 
     public async Task<IEnumerable<DateTime>> FestivosFijos()
     {
-        List<DateTime> festivos = new List<DateTime>();
-        using (SqlConnection conn = dbConnector.GetConnection())
-        {
-            await conn.OpenAsync();
-            SqlCommand cmd = new SqlCommand(
-                "SELECT Dia, Mes FROM Festivo WHERE IdTipo = (SELECT Id FROM Tipo WHERE Tipo = 'fijo')", conn);
-            SqlDataReader reader = await cmd.ExecuteReaderAsync();
-            while (await reader.ReadAsync())
-            {
-                int dia = reader.GetInt32(0);
-                int mes = reader.GetInt32(1);
-                festivos.Add(new DateTime(DateTime.Now.Year, mes, dia));
-            }
-        }
-        return festivos;
+        return await _context.Festivos
+            .Where(f => f.IdTipo == 1)
+            .Select(f => new DateTime(DateTime.Now.Year, f.Mes, f.Dia))
+            .ToListAsync();
     }
 
     public async Task<DateTime?> FestivosPuente(DateTime fecha)
     {
-        using (SqlConnection conn = dbConnector.GetConnection())
-        {
-            await conn.OpenAsync();
-            SqlCommand cmd = new SqlCommand(
-                "SELECT Dia, Mes FROM Festivo WHERE IdTipo = (SELECT Id FROM Tipo WHERE Tipo = 'puente')", conn);
-            SqlDataReader reader = await cmd.ExecuteReaderAsync();
-            while (await reader.ReadAsync())
-            {
-                int dia = reader.GetInt32(0);
-                int mes = reader.GetInt32(1);
-                DateTime fechaFestivo = new DateTime(fecha.Year, mes, dia);
-                if (fechaFestivo.DayOfWeek != DayOfWeek.Monday)
-                {
-                    fechaFestivo = SiguienteLunes(fechaFestivo);
-                }
-                if (fecha.Date == fechaFestivo.Date) return fechaFestivo;
-            }
-        }
-        return null;
+        var festivo = await _context.Festivos
+            .Where(f => f.IdTipo == 2 && f.Mes == fecha.Month && f.Dia == fecha.Day)
+            .Select(f => new DateTime(fecha.Year, f.Mes, f.Dia))
+            .SingleOrDefaultAsync();
+
+        return festivo == default(DateTime) ? null : MoverAlLunes(festivo);
     }
+
 
     public async Task<DateTime?> FestivosPuenteRelativos(DateTime fecha)
     {
-        DateTime domingoPascua = ObtenerDomingoPascua(fecha.Year);
+        var relativo = await FestivoRelativo(fecha);
 
-        using (SqlConnection conn = dbConnector.GetConnection())
-        {
-            await conn.OpenAsync();
-            SqlCommand cmd = new SqlCommand(
-                "SELECT DiasPascua FROM Festivo WHERE IdTipo = (SELECT Id FROM Tipo WHERE Tipo = 'puente_relativo')", conn);
-            SqlDataReader reader = await cmd.ExecuteReaderAsync();
-            while (await reader.ReadAsync())
-            {
-                int diasRelativos = reader.GetInt32(0);
-                DateTime fechaFestivo = domingoPascua.AddDays(diasRelativos);
-                if (fechaFestivo.DayOfWeek != DayOfWeek.Monday)
-                {
-                    fechaFestivo = SiguienteLunes(fechaFestivo);
-                }
-                if (fecha.Date == fechaFestivo.Date) return fechaFestivo;
-            }
-        }
-        return null;
+        return relativo.HasValue ? MoverAlLunes(relativo.Value) : null;
     }
 
-    private DateTime ObtenerDomingoPascua(int año)
+    private DateTime ObtenerDomingoDePascua(int year)
     {
-        int a = año % 19;
-        int b = año % 4;
-        int c = año % 7;
-        int d = (19 * a + 24) % 30;
-        int días = d + (2 * b + 4 * c + 6 * d + 5) % 7;
-        int dia = 15 + días;
-        int mes = 3;
-        if (dia > 31)
-        {
-            dia -= 31;
-            mes = 4;
-        }
-        return new DateTime(año, mes, dia);
+        // Algoritmo de Meeus para calcular Pascua
+        int a = year % 19;
+        int b = year / 100;
+        int c = year % 100;
+        int d = b / 4;
+        int e = b % 4;
+        int f = (b + 8) / 25;
+        int g = (b - f + 1) / 3;
+        int h = (19 * a + b - d - g + 15) % 30;
+        int i = c / 4;
+        int k = c % 4;
+        int l = (32 + 2 * e + 2 * i - h - k) % 7;
+        int m = (a + 11 * h + 22 * l) / 451;
+        int month = (h + l - 7 * m + 114) / 31;
+        int day = ((h + l - 7 * m + 114) % 31) + 1;
+        return new DateTime(year, month, day);
     }
 
-    private DateTime SiguienteLunes(DateTime fecha)
+    private DateTime MoverAlLunes(DateTime fecha)
     {
-        while (fecha.DayOfWeek != DayOfWeek.Monday)
-        {
-            fecha = fecha.AddDays(1);
-        }
-        return fecha;
+        return fecha.DayOfWeek == DayOfWeek.Monday ? fecha : fecha.AddDays((int)DayOfWeek.Monday - (int)fecha.DayOfWeek);
     }
 }
